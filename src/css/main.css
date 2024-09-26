@@ -74,15 +74,34 @@ video {
 }
 
 /* 01. Sélecteurs CSS */
+h3,
+h4 {
+  font-family: Libre Baskerville;
+}
+.section-sport h4 {
+  color: #78290f;
+}
+.section-culture h4 {
+  color: #15616d;
+}
+.section-regions .first {
+  font-weight: bold;
+}
+.first.highlighted {
+  background-color: #faf0ca;
+}
 
 /* 02. Centrer horizontalement */
 
 .calltoaction {
   margin-bottom: 15px;
-  padding: 15px 30px;
+  padding: 15px 0px;
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
+  width: 150px;
+  text-align: center;
+  margin-left: 70px;
 }
 
 .link {
@@ -92,6 +111,8 @@ video {
   color: #fdf0d5;
   font-family: "Libre Baskerville";
   text-transform: uppercase;
+  text-align: center;
+  margin-left: 20px;
 }
 
 /* 03. Centrer verticalement */
@@ -103,6 +124,8 @@ video {
   padding: 20px;
   border-radius: 10px;
   background: #669bbc;
+  display: flex;
+  align-items: center;
 }
 
 .button {
@@ -111,6 +134,56 @@ video {
   background: #780000;
   color: #fdf0d5;
   text-align: center;
+  padding: 15;
 }
 
 /* 04. Intégration */
+.profil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  width: 270px;
+}
+.pdp {
+  width: 270px;
+  height: 250px;
+  border-top-right-radius: 17px;
+  border-top-left-radius: 17px;
+}
+.conten {
+  display: flex;
+  height: 50px;
+  padding: 0px 15px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+}
+.Cleft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.nom {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.post {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Cright {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
